@@ -98,8 +98,8 @@ Weather-App/
 2. SSH into instance
 3. Run:
 ```bash
-git clone https://github.com/pkala7968/Weather-App.git
-cd Weather-App
+git clone https://github.com/Siddharthh39/weahterApp.git
+cd weahterApp
 ./deploy.sh
 ```
 
@@ -162,8 +162,8 @@ Follow the detailed guide in **AWS_DEPLOYMENT_GUIDE.md**
 
 2. **Run Deployment Script**
    ```bash
-   git clone https://github.com/pkala7968/Weather-App.git
-   cd Weather-App
+   git clone https://github.com/Siddharthh39/weahterApp.git
+   cd weahterApp
    ./deploy.sh
    ```
 

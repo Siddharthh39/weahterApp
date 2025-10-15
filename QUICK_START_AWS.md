@@ -6,8 +6,8 @@ Once you have your EC2 instance running and have SSH'd into it:
 
 ```bash
 # Clone the repository
-git clone https://github.com/pkala7968/Weather-App.git
-cd Weather-App
+git clone https://github.com/Siddharthh39/weahterApp.git
+cd weahterApp
 
 # Run the deployment script
 ./deploy.sh

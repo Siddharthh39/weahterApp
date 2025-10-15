@@ -28,7 +28,7 @@ echo -e "${BLUE}Step 2: Installing Apache, Python, and dependencies...${NC}"
 sudo apt install -y apache2 python3 python3-pip python3-venv git
 
 echo -e "${BLUE}Step 3: Setting up Python virtual environment...${NC}"
-cd /home/ubuntu/Weather-App
+cd /home/ubuntu/weahterApp
 python3 -m venv venv
 source venv/bin/activate
 pip install -r backend/requirements.txt
