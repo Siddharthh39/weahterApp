@@ -38,8 +38,8 @@ Use this checklist to ensure smooth deployment of your Weather App on AWS.
 
 ## Backend Deployment
 
-- [ ] Repository cloned: `git clone https://github.com/pkala7968/Weather-App.git`
-- [ ] Changed to project directory: `cd Weather-App`
+- [ ] Repository cloned: `git clone https://github.com/Siddharthh39/weahterApp.git`
+- [ ] Changed to project directory: `cd weahterApp`
 - [ ] Virtual environment created: `python3 -m venv venv`
 - [ ] Virtual environment activated: `source venv/bin/activate`
 - [ ] Dependencies installed: `pip install -r backend/requirements.txt`

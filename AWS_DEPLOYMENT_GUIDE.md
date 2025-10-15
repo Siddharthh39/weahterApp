@@ -97,8 +97,8 @@ sudo systemctl status apache2
 
 ```bash
 cd /home/ubuntu
-git clone https://github.com/pkala7968/Weather-App.git
-cd Weather-App
+git clone https://github.com/Siddharthh39/weahterApp.git
+cd weahterApp
 ```
 
 ### 3.2 Set Up Python Virtual Environment

@@ -1,14 +1,15 @@
 # <img src="frontend/icons/weathermap.png" width="100" height="300"> Weather Map App 
 
 An interactive weather application that displays real-time weather information on a map.  
-Built with **Leaflet.js** for mapping, **FastAPI** as the backend, and powered by the **OpenWeather API** for live weather data.
+Built with **Leaflet.js** for mapping, **FastAPI** as the backend, and powered by the **Open-Meteo API** for live weather data.
 
 Live Demo: https://pkala-weather-app.vercel.app (The app might be slow for the first few clicks as the backend takes a moment to wake up)
 
 ---
 
 ## Features
--  Fetches **current weather conditions** (temperature, humidity, wind, etc.) using the OpenWeather API.  
+-  Fetches **current weather conditions** (temperature, humidity, wind, etc.) using the Open-Meteo API.  
+-  **No API key required** - completely free weather data!
 -  Displays weather info in **popups** on a Leaflet map.  
 -  Click on any location to see its weather details.  
 -  Centered and responsive map layout.  
@@ -50,27 +51,24 @@ Or follow the detailed guide: **[AWS_DEPLOYMENT_GUIDE.md](./AWS_DEPLOYMENT_GUIDE
 
 ## 💻 Run Locally
 
-### Prerequisites
+For detailed local setup instructions, see **[SETUP_INSTRUCTIONS.md](./SETUP_INSTRUCTIONS.md)**
 
-- Python 3.8+
-- pip (Python package installer)
-
-### Steps
+### Quick Start
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/pkala7968/weather-app.git
-cd weather-app
+git clone https://github.com/Siddharthh39/weahterApp.git
+cd weahterApp
 ```
 
 2. **Set Up Backend**
 ```bash
 # Create virtual environment
+cd backend
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-cd backend
 pip install -r requirements.txt
 
 # Run the backend
@@ -81,7 +79,7 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
    - Open `frontend/index.html` in your browser
    - Click anywhere on the map to see weather data!
 
-**Note:** The app automatically detects if you're running locally and uses `http://localhost:8000` for the API.
+**Note:** The app automatically detects if you're running locally and uses `http://localhost:8000` for the API. No API keys or registration required!
 
 ---
 
