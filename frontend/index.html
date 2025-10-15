@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather Map</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="logo-container">
+    <img src="icons/weathermap.png" alt="logo">
+  </div>
+  <div class="header">
+    <h2 id="map-heading">Click anywhere on the map to see weather</h2>
+  </div>
+  <div class="link">
+    <a href="https://github.com/pkala7968"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="github"></a>
+  </div>
+  <div id="map"></div>
+  <div id="weather-info" class="hidden">
+    <button id="close-btn" class="close-btn">✖</button>
+    <img id="weather-icon" src="" alt="Weather Icon">
+    <div id="weather-details"></div>
+  </div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
