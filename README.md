@@ -1,12 +1,3 @@
-# <img src="frontend/icons/weathermap.png" width="100" height="300"> Weather Map App 
-
-An interactive weather application that displays real-time weather information on a map.  
-Built with **Leaflet.js** for mapping, **FastAPI** as the backend, and powered by the **OpenWeather API** for live weather data.
-
-Live Demo: https://pkala-weather-app.vercel.app (The app might be slow for the first few clicks as the backend takes a moment to wake up)
-
----
-
 ## Features
 -  Fetches **current weather conditions** (temperature, humidity, wind, etc.) using the OpenWeather API.  
 -  Displays weather info in **popups** on a Leaflet map.  
